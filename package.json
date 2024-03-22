@@ -1,0 +1,47 @@
+{
+  "name": "accusamuset",
+  "version": "1.0.0",
+  "description": "Relationship type checker functions for Typescript types.",
+  "author": "CliftonCummerata",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TysonDouglas/accusamuset.git"
+  },
+  "keywords": [
+    "omnis",
+    "ast",
+    "typechecker",
+    "est"
+  ],
+  "main": "lib/index.cjs.js",
+  "typings": "lib/index.cjs.d.ts",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "@wessberg/rollup-plugin-ts": "^1.1.9",
+    "ava": "1.0.0-rc.2",
+    "husky": "^1.3.1",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
+    "rollup": "^0.67.4",
+    "standard-version": "^4.4.0",
+    "tslint": "^5.12.0",
+    "tslint-language-service": "^0.9.9",
+    "typescript": "^3.2.1"
+  },
+  "prettier": {
+    "useTabs": true,
+    "tabWidth": 4,
+    "singleQuote": false,
+    "printWidth": 200
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
